@@ -14,7 +14,6 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
-                <arg>$MODULE_DIR$/../../../snappy-ed/build/intermediates/compile_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5ce00a270152c25474c72413c5c30cd9/transformed/material-1.9.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bbb27dcbacac2e64c69df34f5cb1f25e/transformed/constraintlayout-2.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/312311441a123d7e3f65a40914477734/transformed/appcompat-1.6.1-api.jar</arg>

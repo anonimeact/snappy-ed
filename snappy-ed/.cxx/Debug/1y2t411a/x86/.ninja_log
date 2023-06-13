@@ -1,0 +1,4 @@
+# ninja log v5
+1	1257	7083417170180739	CMakeFiles/ed-lib.dir/src/main/cpp/ed_lib.cpp.o	305c8ffbea34965e
+1261	1411	7083417171646823	../../../../build/intermediates/cxx/Debug/1y2t411a/obj/x86/libed-lib.so	5b5dbda17f8d53f9
+6	706	7083418306013809	../../../../build/intermediates/cxx/Debug/1y2t411a/obj/x86/libed-lib.so	5b5dbda17f8d53f9

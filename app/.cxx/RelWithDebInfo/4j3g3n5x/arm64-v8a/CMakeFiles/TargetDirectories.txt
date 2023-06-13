@@ -1,3 +1,0 @@
-/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/RelWithDebInfo/4j3g3n5x/arm64-v8a/CMakeFiles/rebuild_cache.dir
-/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/RelWithDebInfo/4j3g3n5x/arm64-v8a/CMakeFiles/edit_cache.dir
-/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/RelWithDebInfo/4j3g3n5x/arm64-v8a/CMakeFiles/base-lib.dir

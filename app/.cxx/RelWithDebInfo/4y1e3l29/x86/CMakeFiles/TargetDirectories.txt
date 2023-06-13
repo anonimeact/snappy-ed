@@ -1,3 +1,0 @@
-C:/Users/didiy/StudioProjects/snappy-encrypt-decrypt/app/.cxx/RelWithDebInfo/4y1e3l29/x86/CMakeFiles/base-lib.dir
-C:/Users/didiy/StudioProjects/snappy-encrypt-decrypt/app/.cxx/RelWithDebInfo/4y1e3l29/x86/CMakeFiles/edit_cache.dir
-C:/Users/didiy/StudioProjects/snappy-encrypt-decrypt/app/.cxx/RelWithDebInfo/4y1e3l29/x86/CMakeFiles/rebuild_cache.dir

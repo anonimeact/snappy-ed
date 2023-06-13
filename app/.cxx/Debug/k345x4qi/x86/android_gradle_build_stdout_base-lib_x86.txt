@@ -1,2 +1,0 @@
-ninja: Entering directory `/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/Debug/k345x4qi/x86'
-ninja: no work to do.

@@ -1,7 +1,0 @@
-# ninja log v5
-1	1868	1633023170	CMakeFiles/base-lib.dir/src/main/cpp/base-lib.cpp.o	d2a6fa28e97c27d1
-1869	2157	1633023171	../../../../build/intermediates/cmake/debug/obj/x86/libbase-lib.so	fc34dcd3a406301e
-3	1061	1633155483	CMakeFiles/base-lib.dir/src/main/cpp/base-lib.cpp.o	d2a6fa28e97c27d1
-1061	1290	1633155483	../../../../build/intermediates/cmake/debug/obj/x86/libbase-lib.so	fc34dcd3a406301e
-4	1275	1633245413	CMakeFiles/base-lib.dir/src/main/cpp/base-lib.cpp.o	d2a6fa28e97c27d1
-1276	1442	1633245414	../../../../build/intermediates/cmake/debug/obj/x86/libbase-lib.so	fc34dcd3a406301e

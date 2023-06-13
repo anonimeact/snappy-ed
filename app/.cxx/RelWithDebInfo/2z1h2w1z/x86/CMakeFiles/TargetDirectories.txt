@@ -1,4 +1,0 @@
-C:/Users/anonimeact/AndroidStudioProjects/snappy-encrypt-decrypt/app/.cxx/RelWithDebInfo/2z1h2w1z/x86/CMakeFiles/base-lib.dir
-C:/Users/anonimeact/AndroidStudioProjects/snappy-encrypt-decrypt/app/.cxx/RelWithDebInfo/2z1h2w1z/x86/CMakeFiles/base-lib-v2.dir
-C:/Users/anonimeact/AndroidStudioProjects/snappy-encrypt-decrypt/app/.cxx/RelWithDebInfo/2z1h2w1z/x86/CMakeFiles/edit_cache.dir
-C:/Users/anonimeact/AndroidStudioProjects/snappy-encrypt-decrypt/app/.cxx/RelWithDebInfo/2z1h2w1z/x86/CMakeFiles/rebuild_cache.dir
