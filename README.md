@@ -11,6 +11,7 @@ This tool is perfect if you are creating an application that contains static dat
 	allprojects {
 		repositories {
 			...
+        		jcenter() // to load snappy library
 			maven { url 'https://jitpack.io' }
 		}
 	}
