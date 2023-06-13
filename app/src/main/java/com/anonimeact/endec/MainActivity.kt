@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             "mklopijbhutfdre"
         )
         val decrypted = Loader.decrypt(encrypted, "mklopijbhutfdre")
-        Log.d("asdfsd", "asdf E $encrypted")
-        Log.d("asdfsd", "asdf D $decrypted")
+        Log.d("MainActivity", "encrypt $encrypted")
+        Log.d("MainActivity", "decrypt $decrypted")
     }
 }

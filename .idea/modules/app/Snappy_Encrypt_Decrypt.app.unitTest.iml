@@ -15,7 +15,9 @@
           <stringArguments>
             <stringArg name="classpath">
               <args>
+                <arg>$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d74ae25d5da69ad08d75e9cbd35be8e8/transformed/jetified-viewbinding-8.0.2-api.jar</arg>
+                <arg>$MODULE_DIR$/../../../snappy-ed/build/intermediates/compile_library_classes_jar/debug/classes.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/312311441a123d7e3f65a40914477734/transformed/appcompat-1.6.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/eba53104cd5b416469a7a7fdbe8a8be6/transformed/jetified-utils-1.1.14-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/5321cda3cfbba144fec47f13a2a0d069/transformed/jetified-play-services-maps-11.0.4-api.jar</arg>
