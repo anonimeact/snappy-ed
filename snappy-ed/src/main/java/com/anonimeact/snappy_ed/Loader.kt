@@ -16,17 +16,14 @@ import java.io.IOException
 object Loader {
 
     fun encryptFile(
-        context: Context,
-        originFileNameAndExtension: String,
+        context: Context, originFileNameAndExtension: String,
         outputFileNameExtention: String, key: String? = ""
     ) {
         writeDataToStorage(loadPureData(context, originFileNameAndExtension), outputFileNameExtention, key)
     }
 
     fun writeDataToStorage(
-        originData: String,
-        outputFileNameAndExtention: String?,
-        key: String? = ""
+        originData: String, outputFileNameAndExtention: String?, key: String? = ""
     ) {
         try {
             val encrypted = encrypt(originData, key)
@@ -50,9 +47,9 @@ object Loader {
         }
     }
 
-    fun loadEncryptedDataFile(context: Context, pathFile: String, key: String? = ""): String {
+    fun loadEncryptedDataFile(context: Context, assetPathFile: String, key: String? = ""): String {
         return try {
-            val stream = context.assets.open(pathFile)
+            val stream = context.assets.open(assetPathFile)
             val size = stream.available()
             val buffer = ByteArray(size)
             stream.read(buffer)
@@ -64,9 +61,9 @@ object Loader {
         }
     }
 
-    fun loadEncryptedDataFileArray(context: Context, pathFile: String, key: String? = ""): String {
+    fun loadEncryptedDataFileArray(context: Context, assetPathFile: String, key: String? = ""): String {
         return try {
-            val stream = context.assets.open(pathFile)
+            val stream = context.assets.open(assetPathFile)
             val size = stream.available()
             val buffer = ByteArray(size)
             stream.read(buffer)
@@ -83,9 +80,9 @@ object Loader {
         }
     }
 
-    fun loadPureData(context: Context, pathFile: String): String {
+    fun loadPureData(context: Context, assetPathFile: String): String {
         return try {
-            val stream = context.assets.open(pathFile)
+            val stream = context.assets.open(assetPathFile)
             val size = stream.available()
             val buffer = ByteArray(size)
             stream.read(buffer)
