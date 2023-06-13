@@ -20,7 +20,7 @@ This tool is perfect if you are creating an application that contains static dat
 
 ```css
 	dependencies {
-	        implementation 'com.github.anonimeact:snappy-ed:Tag'
+	        implementation 'com.github.anonimeact:snappy-ed:release-version (eg: 1.0.0)'
 	}
 ```
 
