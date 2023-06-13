@@ -45,6 +45,7 @@ This tool is perfect if you are creating an application that contains static dat
  - You can user random letters (a...z / A...Z) and numbers (0...9)
  - Symbols of any kind are not allowed
  - The length of the key is 15, can't be less or more
+ - Each key character must be unique, for example: "1234567890abcdef", "qwertyuiop09876"
 
 *) **Note**
 
