@@ -1,1 +1,0 @@
-Pastikan set allow permission untuk WRITE_EXTERNAL_DATA

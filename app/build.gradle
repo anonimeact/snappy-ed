@@ -3,7 +3,7 @@ plugins {
     id 'kotlin-android'
 }
 android {
-    namespace 'com.anonimeact.sqliteencryptor'
+    namespace 'com.anonimeact.endec'
     compileSdk 33
     defaultConfig {
         applicationId "com.anonimeact.sqliteencryptor"
@@ -34,14 +34,7 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.anonimeact:utils:1.1.14'
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'com.jiechic.android.library:snappy-android:1.1.7'
-    implementation 'com.scottyab:aescrypt:0.0.1'
     implementation 'androidx.core:core-ktx:1.10.1'
-
     implementation(project(':snappy-ed'))
 }

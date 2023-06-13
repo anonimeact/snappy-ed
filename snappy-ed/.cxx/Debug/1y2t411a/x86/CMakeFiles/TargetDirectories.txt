@@ -1,3 +1,0 @@
-C:/Users/anonimeact/Documents/JitpackLib/snappy-encrypt-decrypt/snappy-ed/.cxx/Debug/1y2t411a/x86/CMakeFiles/ed-lib.dir
-C:/Users/anonimeact/Documents/JitpackLib/snappy-encrypt-decrypt/snappy-ed/.cxx/Debug/1y2t411a/x86/CMakeFiles/edit_cache.dir
-C:/Users/anonimeact/Documents/JitpackLib/snappy-encrypt-decrypt/snappy-ed/.cxx/Debug/1y2t411a/x86/CMakeFiles/rebuild_cache.dir
