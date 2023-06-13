@@ -1,0 +1,1 @@
+C:\Users\anonimeact\AndroidStudioProjects\snappy-encrypt-decrypt\app\CMakeLists.txt

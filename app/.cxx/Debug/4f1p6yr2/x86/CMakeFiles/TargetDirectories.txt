@@ -1,0 +1,4 @@
+C:/Users/anonimeact/Documents/JitpackLib/snappy-encrypt-decrypt/app/.cxx/Debug/4f1p6yr2/x86/CMakeFiles/base-lib.dir
+C:/Users/anonimeact/Documents/JitpackLib/snappy-encrypt-decrypt/app/.cxx/Debug/4f1p6yr2/x86/CMakeFiles/base-lib-v2.dir
+C:/Users/anonimeact/Documents/JitpackLib/snappy-encrypt-decrypt/app/.cxx/Debug/4f1p6yr2/x86/CMakeFiles/edit_cache.dir
+C:/Users/anonimeact/Documents/JitpackLib/snappy-encrypt-decrypt/app/.cxx/Debug/4f1p6yr2/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,47 @@
+[
+  {
+    "level": "INFO",
+    "message": "android.ndkVersion from module build.gradle is [21.0.6113669]",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "android.ndkPath from module build.gradle is not set",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "ndk.dir in local.properties is not set",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Not considering ANDROID_NDK_HOME because support was removed after deprecation period.",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "sdkFolder is /Users/koinworks/Library/Android/sdk",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Folder /Users/koinworks/Library/Android/sdk/ndk/21.0.6113669 does not exist. Ignoring.",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "Folder /Users/koinworks/Library/Android/sdk/ndk-bundle does not exist. Ignoring.",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "No NDK was found. Trying to download it now.",
+    "diagnosticCode": "UNKNOWN"
+  },
+  {
+    "level": "INFO",
+    "message": "NDK 21.0.6113669 was downloaded to /Users/koinworks/Library/Android/sdk/ndk/21.0.6113669. Using that.",
+    "diagnosticCode": "UNKNOWN"
+  }
+]

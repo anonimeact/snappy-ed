@@ -1,0 +1,1 @@
+/Users/koinworks/Downloads/SQLiteEncryptor/app/CMakeLists.txt

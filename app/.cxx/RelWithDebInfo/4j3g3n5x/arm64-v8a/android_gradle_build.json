@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/koinworks/Downloads/SQLiteEncryptor/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/koinworks/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/RelWithDebInfo/4j3g3n5x/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/koinworks/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/RelWithDebInfo/4j3g3n5x/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "base-lib-RelWithDebInfo-arm64-v8a": {
+      "buildCommandComponents": [
+        "/Users/koinworks/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/RelWithDebInfo/4j3g3n5x/arm64-v8a",
+        "base-lib"
+      ],
+      "buildType": "release",
+      "abi": "arm64-v8a",
+      "artifactName": "base-lib",
+      "output": "/Users/koinworks/Downloads/SQLiteEncryptor/app/build/intermediates/cxx/RelWithDebInfo/4j3g3n5x/obj/arm64-v8a/libbase-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

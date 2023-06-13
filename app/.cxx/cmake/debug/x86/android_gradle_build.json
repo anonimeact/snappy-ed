@@ -1,0 +1,40 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Users/koinworks/Downloads/SQLiteEncryptor/app/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/koinworks/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/cmake/debug/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/koinworks/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/cmake/debug/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "base-lib-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/koinworks/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/koinworks/Downloads/SQLiteEncryptor/app/.cxx/cmake/debug/x86",
+        "base-lib"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "base-lib",
+      "output": "/Users/koinworks/Downloads/SQLiteEncryptor/app/build/intermediates/cmake/debug/obj/x86/libbase-lib.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

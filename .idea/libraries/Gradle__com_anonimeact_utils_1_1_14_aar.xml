@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.anonimeact:utils:1.1.14@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b139759daf599ac96db9b2ada8415735/transformed/jetified-utils-1.1.14/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b139759daf599ac96db9b2ada8415735/transformed/jetified-utils-1.1.14/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b139759daf599ac96db9b2ada8415735/transformed/jetified-utils-1.1.14/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anonimeact/utils/1.1.14/30d6fa4019e39ca5ee36c328aa1277569ef0c320/utils-1.1.14-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.anonimeact/utils/1.1.14/3bcc0f3389925a656e60bd8c6d980d05f3025461/utils-1.1.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
