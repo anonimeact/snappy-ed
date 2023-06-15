@@ -23,7 +23,7 @@ object Loader {
     }
 
     fun writeDataToStorage(
-        originData: String, outputFileNameAndExtention: String?, key: String? = ""
+         originData: String, outputFileNameAndExtention: String?, key: String? = ""
     ) {
         try {
             val encrypted = encrypt(originData, key)

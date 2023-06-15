@@ -13,7 +13,11 @@ import java.security.cert.CertificateFactory
 import java.security.cert.X509Certificate
 
 object Utils {
-    fun getLocalCertificate(context: Context, isLength15: Boolean = true): String {
+    fun getLocalCertificate(
+        context: Context,
+        isPureCertificate: Boolean = false,
+        isLength15: Boolean = true
+    ): String {
         val signatures: Array<Signature> = getSignature(context)
         val cert: ByteArray = signatures[0].toByteArray()
         val input: InputStream = ByteArrayInputStream(cert)
@@ -40,19 +44,18 @@ object Utils {
             if (appendString.length == 1) hexString.append("0")
             hexString.append(appendString)
         }
-        val certificate = setUnixCharacter(
-            hexString.toString() + context.packageName.lowercase() + context.packageName.uppercase()
-        )
-        return if (isLength15) certificate.substring(0, 15) else certificate
+        return if (isPureCertificate) hexString.toString()
+        else {
+            val certificate = setUnixCharacter(
+                hexString.toString() + context.packageName.lowercase() + context.packageName.uppercase()
+            ).filter { it.isLetterOrDigit() }
+            return if (isLength15) certificate.substring(0, 15) else certificate
+        }
     }
 
     fun setUnixCharacter(clearCertificate: String): String {
         var tempString = ""
-        clearCertificate.forEach { c ->
-            if (!tempString.contains(c)) {
-                tempString += c
-            }
-        }
+        clearCertificate.forEach { c -> if (!tempString.contains(c)) tempString += c }
         return tempString
     }
 
