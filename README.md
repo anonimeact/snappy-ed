@@ -33,8 +33,8 @@ This tool is perfect if you are creating an application that contains static dat
 	Loader.encrypt("Your string data", "Your key")
 	Loader.decrypt("Your string data", "Your key")
 
-	/** encrypt a file and save in local storage in
-		snappy-ed folder as a file*/
+	// encrypt a file and save in local storage, will be generated in the snappy-ed folder as a file
+	// don't forget to request WRITE_EXTERNAL_STORAGE first to execute this function
 	Loader.encryptFile(context, "originFile.txt", "newEncryptedFile.txt", "Your key")
 	
 	. . . . . . .
