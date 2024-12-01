@@ -4,11 +4,12 @@ plugins {
 }
 android {
     namespace 'com.anonimeact.endec'
-    compileSdk 33
+    compileSdk 35
     defaultConfig {
         applicationId "com.anonimeact.sqliteencryptor"
         minSdkVersion 23
-        targetSdkVersion 33
+        targetSdk 35
+
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
@@ -29,12 +30,11 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
-    buildToolsVersion '30.0.3'
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.core:core-ktx:1.15.0'
     implementation(project(':snappy-ed'))
 }

@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace 'com.anonimeact.snappy_ed'
-    compileSdk 33
+    compileSdk 35
 
     defaultConfig {
         minSdk 19
-        targetSdk 33
+        targetSdk 35
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -34,7 +34,6 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    buildToolsVersion '30.0.3'
     ndkVersion '25.2.9519653'
     externalNativeBuild {
         cmake {
@@ -55,7 +54,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.anonimeact.snappy_ed'
             artifactId = 'snappy-ed'
-            version = '1.0.0'
+            version = '1.0.3'
             afterEvaluate {
                 from components.release
             }
@@ -67,5 +66,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-    implementation 'com.jiechic.android.library:snappy-android:1.1.7'
 }

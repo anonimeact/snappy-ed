@@ -3,7 +3,7 @@ package com.anonimeact.snappy_ed
 import android.content.Context
 import android.os.Environment
 import android.util.Base64
-import com.jiechic.library.android.snappy.Snappy
+import com.anonimeact.snappy_ed.snappy.Snappy
 import org.json.JSONArray
 import java.io.File
 import java.io.FileOutputStream

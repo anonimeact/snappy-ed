@@ -18,8 +18,8 @@ object Utils {
         isPureCertificate: Boolean = false,
         isLength15: Boolean = true
     ): String {
-        val signatures: Array<Signature> = getSignature(context)
-        val cert: ByteArray = signatures[0].toByteArray()
+        val signatures: Array<Signature>? = getSignature(context)
+        val cert: ByteArray? = signatures?.get(0)?.toByteArray()
         val input: InputStream = ByteArrayInputStream(cert)
         var cf: CertificateFactory? = null
         try {
@@ -59,13 +59,13 @@ object Utils {
         return tempString
     }
 
-    private fun getSignature(context: Context): Array<Signature> {
+    private fun getSignature(context: Context): Array<Signature>? {
         val packageName = context.packageName
         return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
             val packageInfo = context.packageManager.getPackageInfoCompact(
                 packageName, PackageManager.GET_SIGNING_CERTIFICATES
             )
-            packageInfo.signingInfo.apkContentsSigners
+            packageInfo.signingInfo?.apkContentsSigners
         } else {
             val packageInfo = context.packageManager.getPackageInfoCompact(
                 packageName, PackageManager.GET_SIGNATURES
